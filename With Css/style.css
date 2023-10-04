@@ -1,25 +1,60 @@
-.page{
-    height: 50vh;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
-
-
-.navbar{
-    background-color: aquamarine;
-    display: flex;
-    justify-content: flex-end;
+.page {
+  margin: 0px;
+  padding: 20px;
+  height: 100vh;
 }
-
-.navbar nav{
-    display: flex;
-    position: fixed;
-    top: 10px;
-    background-color: aquamarine;
+.page h1 {
+  padding: 20px;
+  text-align: center;
 }
-
-.navbar nav a{
-    display: flex;
-    align-items: center;
-    margin: 0px;
-    padding: 10px;
-    text-decoration: none;
+#home {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-image: url(cool.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#home .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#home .container p {
+  width: 600px;
+  height: 200px;
+}
+#home .container img {
+  max-width: 400px;
+  max-height: 400px;
+}
+#about {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-image: url(cool.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  background-color: rgba(68, 46, 167, 0.418);
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 5px;
 }
