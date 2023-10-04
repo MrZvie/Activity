@@ -1,0 +1,25 @@
+.page{
+    height: 50vh;
+}
+
+
+.navbar{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar nav{
+    display: flex;
+    position: fixed;
+    top: 10px;
+    background-color: aquamarine;
+}
+
+.navbar nav a{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    text-decoration: none;
+}
