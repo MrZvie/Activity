@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
@@ -9,7 +11,7 @@ body {
   height: 100vh;
 }
 .page h1 {
-  padding: 20px;
+  padding: 30px;
   text-align: center;
 }
 #home {
@@ -27,13 +29,14 @@ body {
   flex-direction: row;
   align-items: center;
 }
-#home .container p {
-  width: 600px;
-  height: 200px;
-}
 #home .container img {
   max-width: 400px;
   max-height: 400px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
 }
 #about {
   margin: 0px;
@@ -45,16 +48,36 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.container-1 {
+  width: 600px;
+  display: flex;
+  border: 5px solid rgba(71, 159, 80, 0.8);
+  background-color:  rgba(71, 159, 80, 0.8);
+}
+.container-1 p{
+  font-size: 20px;
+}
+.logo{
+  width: 40px;
+  background-color: rgba(68, 46, 167, 0.418);
+}
 nav {
-  position: fixed;
+  width: 100%;
   top: 0;
   right: 0;
   display: flex;
+  justify-content: flex-end;
   background-color: rgba(68, 46, 167, 0.418);
+  padding: 5px;
 }
 nav a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
   padding: 5px;
+}
+header{
+  position: fixed;
+  width: 100%;
+  display: flex;
 }
